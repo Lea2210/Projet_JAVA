@@ -34,4 +34,33 @@ public class Session {
     public String toString() {
         return "Specialité de la session : " + specialite + ", le " + jour + "/" + mois + "," + presentations ;
     }
+
+    public String getSpecialite() {
+        return specialite;
+    }
+
+    public void setSpecialite(String specialite) {
+        this.specialite = specialite;
+    }
+
+    public int getJour() {
+        return jour;
+    }
+
+    public void setJour(int jour) {
+        this.jour = jour;
+    }
+
+    public int getMois() {
+        return mois;
+    }
+
+    public void setMois(int mois) {
+        this.mois = mois;
+    }
+    
 }
+
+    
+
+
